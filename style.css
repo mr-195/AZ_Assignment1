@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: black ; */
+}
+
+
+.upper_half{
+    padding: 0px;
+    display: flex;
+    align-content: center;
+    height: 70vh;
+    justify-content:space-around;
+    background-color: #1F4482;
+    flex-wrap: wrap-reverse;
+    
+}
+
+.email{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    /* height: 10vh; */
+}
+
+.upper_half_l{
+    display: flex;
+    flex-flow:column wrap;
+    justify-content: space-between;
+    height: 40vh;
+}
+.uhl3{
+    display: flex;
+}
+
+.lower_half{
+    display: flex;
+    height: 29.99vh;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #282828;
+    /* align-items: center; */
+}
+
+.llh{
+    padding-left: 246px;
+}
+
+.lrh{
+    display: flex;
+    flex-direction: column;
+    padding-right: 189px;
+    justify-content: space-around;
+    align-content: center;
+    padding-top: 39px;
+    padding-bottom: 43px;
+}
+.heading{
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+
+.uhl1{
+    flex-grow: 1;
+}
+
+.uhl2{
+    align-self: flex-start;
+    flex-grow: 2;
+    font-size: 18px;
+}
+
+.uhl3{
+    flex-grow: 0;
+}
+
+.succ{
+    color: #E9EE00;
+}
+
+
+.upper_half_r{
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 6px 18px 98px 29px white;;
+}
+
+.inpBox{
+    height:5vh;
+    width: 40vh;
+    border-radius: 5px;
+    color: grey;
+    font-size: 15px;
+    /* text-align: center; */
+    margin-right: 10px;
+}
+
+input::placeholder{
+    padding-left: 10px;
+}
+
+.button,.btn{
+    height:6vh;
+    width: 25vh;
+    background: #000;
+    border-radius: 4px;
+    font-size: 17px;
+}
+
+.text1{
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+
+.outer{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.llh{
+    display: flex;
+    flex-direction: column;
+    height: 18vh;
+    justify-content: space-between;
+}
+
+.text{
+    text-align: right;
+}
+
+#id1{
+    flex-grow: 1;
+}
+
+#id2{   
+    flex-grow: 12;
+}
+
+#id3{
+    flex-grow: 3;
+}
